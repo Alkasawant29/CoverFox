@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[launching browser]]>
+    </line>
+    <line>
+      <![CDATA[waiting...]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from property fileage]]>
+    </line>
+    <line>
+      <![CDATA[selecting age]]>
+    </line>
+    <line>
+      <![CDATA[click on next button]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from property filepincode]]>
+    </line>
+    <line>
+      <![CDATA[select Pincode]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from property filemobno]]>
+    </line>
+    <line>
+      <![CDATA[select mobilenumber]]>
+    </line>
+    <line>
+      <![CDATA[click on next button]]>
+    </line>
+    <line>
+      <![CDATA[ChecksortPlanTC execution started]]>
+    </line>
+    <line>
+      <![CDATA[TCChecksortPlan is failed]]>
+    </line>
+    <line>
+      <![CDATA[taking Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[saving file at locationC:\Users\LENOVO\eclipse-workspace\CoverFox\coverfoxscreenshot\ChecksortPlan.png]]>
+    </line>
+    <line>
+      <![CDATA[validationBannersTC execution started]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-12T15:10:19 IST" name="Suite" finished-at="2024-08-12T15:10:43 IST" duration-ms="23486">
+    <groups>
+    </groups>
+    <test started-at="2024-08-12T15:10:19 IST" name="Test" finished-at="2024-08-12T15:10:43 IST" duration-ms="23486">
+      <class name="coverFoxTest.Listerner">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFoxTest.Listerner@2a65fe7c]" started-at="2024-08-12T15:10:19 IST" name="launchBrowser" finished-at="2024-08-12T15:10:25 IST" duration-ms="5157" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launching browser]]>
+            </line>
+            <line>
+              <![CDATA[waiting...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="preconditions()[pri:0, instance:coverFoxTest.Listerner@2a65fe7c]" started-at="2024-08-12T15:10:25 IST" name="preconditions" finished-at="2024-08-12T15:10:35 IST" duration-ms="9942" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reading data from property fileage]]>
+            </line>
+            <line>
+              <![CDATA[selecting age]]>
+            </line>
+            <line>
+              <![CDATA[click on next button]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from property filepincode]]>
+            </line>
+            <line>
+              <![CDATA[select Pincode]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from property filemobno]]>
+            </line>
+            <line>
+              <![CDATA[select mobilenumber]]>
+            </line>
+            <line>
+              <![CDATA[click on next button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preconditions -->
+        <test-method signature="ChecksortPlan()[pri:0, instance:coverFoxTest.Listerner@2a65fe7c]" started-at="2024-08-12T15:10:35 IST" name="ChecksortPlan" finished-at="2024-08-12T15:10:39 IST" duration-ms="4011" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at coverFoxTest.Listerner.ChecksortPlan(Listerner.java:104)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[ChecksortPlanTC execution started]]>
+            </line>
+            <line>
+              <![CDATA[TCChecksortPlan is failed]]>
+            </line>
+            <line>
+              <![CDATA[taking Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[saving file at locationC:\Users\LENOVO\eclipse-workspace\CoverFox\coverfoxscreenshot\ChecksortPlan.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ChecksortPlan -->
+        <test-method signature="validationBanners()[pri:0, instance:coverFoxTest.Listerner@2a65fe7c]" started-at="2024-08-12T15:10:39 IST" name="validationBanners" finished-at="2024-08-12T15:10:43 IST" duration-ms="4053" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[validationBannersTC execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validationBanners -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:coverFoxTest.Listerner@2a65fe7c]" started-at="2024-08-12T15:10:43 IST" name="CloseBrowser" finished-at="2024-08-12T15:10:43 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- coverFoxTest.Listerner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

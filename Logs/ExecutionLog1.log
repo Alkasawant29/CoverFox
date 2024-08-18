@@ -1,0 +1,30 @@
+2024-08-12 14:51:18,951 [main] INFO coverFox - opening Browser
+2024-08-12 14:51:20,197 [main] INFO coverFox - clicking on Gender Button
+2024-08-12 14:51:21,359 [main] INFO coverFox - clicking on next button
+2024-08-12 15:05:54,842 [main] INFO coverFox - opening Browser
+2024-08-12 15:05:56,385 [main] INFO coverFox - clicking on Gender Button
+2024-08-12 15:05:58,453 [main] INFO coverFox - clicking on next Button
+2024-08-12 15:06:00,610 [main] WARN coverFox - age should be between 18 to 90
+2024-08-12 15:06:00,611 [main] INFO coverFox - age is selected
+2024-08-12 15:06:00,655 [main] INFO coverFox - clicking on next Button
+2024-08-12 15:06:02,780 [main] WARN coverFox - enter valid pincode
+2024-08-12 15:06:02,780 [main] INFO coverFox - entering pincode
+2024-08-12 15:06:02,860 [main] WARN coverFox - enter valid mobile number
+2024-08-12 15:06:02,860 [main] INFO coverFox - entering mobileno
+2024-08-12 15:06:02,926 [main] INFO coverFox - click on next button
+2024-08-12 15:06:09,020 [main] INFO coverFox - validating presence of sort plan
+2024-08-12 15:06:13,065 [main] INFO coverFox - validating banners
+2024-08-12 15:06:13,235 [main] INFO coverFox - closing browser
+2024-08-12 15:10:25,078 [main] INFO coverFox - opening Browser
+2024-08-12 15:10:26,547 [main] INFO coverFox - clicking on Gender Button
+2024-08-12 15:10:28,635 [main] INFO coverFox - clicking on next Button
+2024-08-12 15:10:30,779 [main] WARN coverFox - age should be between 18 to 90
+2024-08-12 15:10:30,779 [main] INFO coverFox - age is selected
+2024-08-12 15:10:30,823 [main] INFO coverFox - clicking on next Button
+2024-08-12 15:10:32,918 [main] WARN coverFox - enter valid pincode
+2024-08-12 15:10:32,919 [main] INFO coverFox - entering pincode
+2024-08-12 15:10:33,006 [main] WARN coverFox - enter valid mobile number
+2024-08-12 15:10:33,006 [main] INFO coverFox - entering mobileno
+2024-08-12 15:10:33,068 [main] INFO coverFox - click on next button
+2024-08-12 15:10:43,315 [main] INFO coverFox - validating banners
+2024-08-12 15:10:43,429 [main] INFO coverFox - closing browser
